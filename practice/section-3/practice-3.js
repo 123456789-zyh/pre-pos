@@ -3,8 +3,8 @@
 function createUpdatedCollection(collectionA, objectB) {
  // 在此写代码
  var arr = [];
- var t ;
- t=0;
+ var a ;
+ a=0;
  let j = 1;
  for(let i = 0; i < collectionA.length ; i++)
  {
@@ -16,12 +16,12 @@ function createUpdatedCollection(collectionA, objectB) {
      }
      else
      {
-         arr[t]={
+         arr[a]={
              key: collectionA[i], 
              count: j
          }
          j=1;
-         t++;
+         a++;
 
      }          
  }  
